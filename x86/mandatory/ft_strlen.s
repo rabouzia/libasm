@@ -25,4 +25,3 @@ ft_strlen:
 
 	end :
 		ret
-		
