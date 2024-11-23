@@ -56,7 +56,7 @@
 # 	as -o $(OBJ_DIR)ft_read.o $(SRC_DIR)ft_read.s
 
 # Variables
-NAME = libasm_arm
+NAME = libasm_arm_mac
 SRC_DIR = src/
 OBJ_DIR = obj/
 BONUS_DIR = bonus/
