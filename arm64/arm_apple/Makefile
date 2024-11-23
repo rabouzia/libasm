@@ -61,7 +61,7 @@ SRC_DIR = src/
 OBJ_DIR = obj/
 BONUS_DIR = bonus/
 
-SRCS = $(SRC_DIR)ft_read.s # $(SRC_DIR)ft_strdup.s$(SRC_DIR)ft_strlen.s $(SRC_DIR)ft_strcpy.s $(SRC_DIR)ft_strcmp.s $(SRC_DIR)ft_write.s 
+SRCS = $(SRC_DIR)ft_strlen.s # $(SRC_DIR)ft_strdup.s$(SRC_DIR)ft_strlen.s $(SRC_DIR)ft_strcpy.s $(SRC_DIR)ft_strcmp.s $(SRC_DIR)ft_write.s 
 OBJS = $(addprefix $(OBJ_DIR), $(notdir $(SRCS:.s=.o)))
 
 BONUS_SRCS = $(BONUS_DIR)ft_list_remove_if.s $(BONUS_DIR)ft_list_sort.s $(BONUS_DIR)ft_atoi_base.s $(BONUS_DIR)ft_list_size.s $(BONUS_DIR)ft_list_push_front.s
