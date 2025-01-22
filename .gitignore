@@ -1,2 +1,8 @@
 *.o
 *.a
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*/*/*/.DS_Store
+*/*/*/*/.DS_Store
+libasm_subject.pdf
