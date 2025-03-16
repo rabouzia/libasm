@@ -1,5 +1,8 @@
 bits  64
 
+extern ft_strlen
+extern malloc
+extern ft_strcpy
 global ft_strdup
 
 ft_strdup:  
@@ -18,5 +21,5 @@ ft_strdup:
 	ret
 	;return(ft_strcpy(malloc(ft_strlen(str)), str))
 
-	return (ft_strcpy(malloc(strlen(str)), str));
+	;return (ft_strcpy(malloc(strlen(str)), str));
 

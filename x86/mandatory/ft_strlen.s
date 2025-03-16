@@ -25,3 +25,5 @@ ft_strlen:
 
 	end :
 		ret
+
+section .note.GNU-stack noexec nowrite progbits
